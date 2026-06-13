@@ -1,0 +1,23 @@
+# Docker Compose for the Auth database (MySQL 8.0).
+# Usage:
+#   docker compose -f db/mysql-auth.yml up -d
+#   docker compose -f db/mysql-auth.yml down
+
+services:
+  mysql-auth:
+    image: mysql:8.0
+    container_name: rp-mysql-auth
+    restart: unless-stopped
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpwd
+      MYSQL_DATABASE: auth
+      MYSQL_USER: authsystem
+      MYSQL_PASSWORD: authsystempwd
+    volumes:
+      - mysql-auth-data:/var/lib/mysql
+      - ./init:/docker-entrypoint-initdb.d
+
+volumes:
+  mysql-auth-data:

@@ -1,0 +1,40 @@
+{
+  "name": "auth-system",
+  "version": "0.1.0",
+  "description": "Auth System of the RP Government System — OAuth2 + Passport + JWT",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "start:debug": "node --inspect --env-file=.env src/server.js",
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --env-file=.env --watch src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "create-role": "node --env-file=.env scripts/create-role.js"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.39.4",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5",
+    "passport": "^0.7.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "pino": "^9.5.0",
+    "pino-http": "^10.3.0",
+    "uuid": "^10.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "jest": "^29.7.0",
+    "pino-pretty": "^11.3.0",
+    "supertest": "^7.0.0"
+  }
+}
