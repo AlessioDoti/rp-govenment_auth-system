@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Concrete use-case for authentication operations.
  *
  * Wires the REST layer to AuthService.

@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Process bootstrap for auth-system.
  */
 

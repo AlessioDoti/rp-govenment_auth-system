@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Express middleware that verifies a Bearer JWT access token.
  *
  * On success it sets `req.user = { uuid, username, roles }`.

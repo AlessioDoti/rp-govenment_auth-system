@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview MySQL-backed implementation of the User persistence port.
  *
  * Orchestrates reads from UserRepository (USERS row) and enriches

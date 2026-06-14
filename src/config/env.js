@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Lazily-validated environment configuration.
  *
  * Uses the same lazy Proxy pattern as sibling microservices so that
@@ -57,7 +57,7 @@ function load() {
   return cached;
 }
 
-/**
+/***
  * Lazy, throw-on-first-use accessor for the validated env.
  */
 export const env = new Proxy({}, {

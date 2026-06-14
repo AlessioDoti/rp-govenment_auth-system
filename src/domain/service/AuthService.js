@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Domain service for authentication operations.
  *
  * Owns user registration and credential validation.

@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview JWT and refresh token service.
  *
  * Handles creation and verification of access tokens (JWT) and

@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Base class for domain services that validate a DTO
  * with a Zod schema before touching the persistence port.
  */
@@ -17,7 +17,7 @@ export class ValidatingService {
     this.schema = schema;
   }
 
-  /**
+  /***
    * @param {object} dto
    * @returns {void}
    * @throws {ValidationError}
@@ -30,7 +30,7 @@ export class ValidatingService {
     }
   }
 
-  /**
+  /***
    * @param {import('zod').ZodError} zodError
    * @returns {string[]}
    */

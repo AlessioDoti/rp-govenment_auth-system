@@ -1,0 +1,13 @@
+process.env.NODE_ENV = 'test';
+process.env.PORT = '3099';
+process.env.DB_HOST = 'localhost';
+process.env.DB_PORT = '3308';
+process.env.DB_USER = 'authsystem_test';
+process.env.DB_PASSWORD = 'authsystem_test_pwd';
+process.env.DB_NAME = 'auth_test';
+process.env.DB_CONNECTION_LIMIT = '5';
+process.env.LOG_LEVEL = 'fatal';
+process.env.JWT_SECRET = 'test-secret-at-least-16-chars';
+process.env.JWT_ISSUER = 'rp-auth-system-test';
+process.env.JWT_ACCESS_TOKEN_EXPIRES_IN = '900';
+process.env.JWT_REFRESH_TOKEN_EXPIRES_IN = '2592000';

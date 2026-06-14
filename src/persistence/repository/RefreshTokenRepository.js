@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview SQL repository for the REFRESH_TOKENS table.
  */
 

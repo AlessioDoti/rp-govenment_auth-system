@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Express router factory for the `/auth` resource.
  *
  * Implements OAuth2 password grant, refresh token grant, registration,

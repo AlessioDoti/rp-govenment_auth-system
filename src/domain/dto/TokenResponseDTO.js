@@ -1,8 +1,8 @@
-/**
+/***
  * @fileoverview DTO wrapping the OAuth2 token response.
  */
 
-/**
+/***
  * @class TokenResponseDTO
  * @classdesc OAuth2 token response sent to the client.
  */
@@ -20,7 +20,7 @@ export class TokenResponseDTO {
     this.expiresIn = expiresIn;
   }
 
-  /**
+  /***
    * @returns {object}
    */
   toJSON() {

@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview MySQL-backed implementation of the RefreshToken persistence port.
  */
 

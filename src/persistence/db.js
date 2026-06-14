@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview MySQL connection pool (singleton) and lifecycle helpers.
  */
 

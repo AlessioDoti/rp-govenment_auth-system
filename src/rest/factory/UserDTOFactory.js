@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Builds a UserDTO from a request object.
  */
 

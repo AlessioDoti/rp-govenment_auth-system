@@ -1,8 +1,8 @@
-/**
+/***
  * @fileoverview Use-case port for authentication operations.
  */
 
-/**
+/***
  * @class AuthRequestHandler
  * @classdesc Use-case port. The REST adapter calls into this.
  */

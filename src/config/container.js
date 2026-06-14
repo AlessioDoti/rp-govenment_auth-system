@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Hand-rolled composition root.
  *
  * Assembles every layer of the application explicitly so that the

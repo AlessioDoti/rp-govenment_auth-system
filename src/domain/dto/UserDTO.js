@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Domain DTO for a user, with Zod validation schemas.
  */
 
@@ -38,7 +38,7 @@ export class UserDTO {
     this.updatedAt = updatedAt;
   }
 
-  /**
+  /***
    * @returns {object}
    */
   toJSON() {
@@ -53,7 +53,7 @@ export class UserDTO {
     };
   }
 
-  /**
+  /***
    * Safe projection — returns only fields safe for the client.
    * @returns {{ uuid: string, username: string, email: string, roles: string[] }}
    */
@@ -68,7 +68,7 @@ export class UserDTO {
   }
 }
 
-/**
+/***
  * Zod schema for user registration.
  * @type {import('zod').ZodType}
  */

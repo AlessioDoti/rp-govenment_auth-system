@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Express application factory for the Auth System.
  */
 

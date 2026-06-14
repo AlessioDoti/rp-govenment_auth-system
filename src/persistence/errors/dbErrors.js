@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Translates known MySQL driver errors into typed
  * `AppError` subclasses. Mirrors the same utility in sibling
  * microservices.

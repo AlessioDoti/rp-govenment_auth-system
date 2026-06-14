@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview SQL repository for the USERS table.
  *
  * Handles CRUD for the USERS row only. Roles are managed through

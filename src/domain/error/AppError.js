@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Typed error hierarchy used by the domain and adapter layers.
  */
 

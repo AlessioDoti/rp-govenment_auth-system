@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview SQL repository for the ROLES catalogue.
  *
  * All read-only operations use the pool directly; write operations
@@ -6,7 +6,7 @@
  * from the caller.
  */
 
-/**
+/***
  * @class RoleRepository
  * @classdesc Data-access layer for ROLES table.
  */

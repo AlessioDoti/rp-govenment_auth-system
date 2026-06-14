@@ -1,8 +1,8 @@
-/**
+/***
  * @fileoverview Persistence port for the User aggregate.
  */
 
-/**
+/***
  * @class UserPersistenceService
  * @classdesc Port the domain uses to persist and retrieve users.
  */

@@ -1,8 +1,8 @@
-/**
+/***
  * @fileoverview RefreshToken persistence entity (REFRESH_TOKENS table row).
  */
 
-/**
+/***
  * @class RefreshToken
  * @classdesc Persistence-layer representation of a REFRESH_TOKENS row.
  */

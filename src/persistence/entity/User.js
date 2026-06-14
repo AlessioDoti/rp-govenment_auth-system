@@ -1,8 +1,8 @@
-/**
+/***
  * @fileoverview User persistence entity (USERS table row).
  */
 
-/**
+/***
  * @class User
  * @classdesc Persistence-layer representation of a USERS row.
  */

@@ -1,8 +1,8 @@
-/**
+/***
  * @fileoverview Request body for POST /auth/register.
  */
 
-/**
+/***
  * @class RegisterRequest
  * @classdesc Registration payload (roles are assigned automatically).
  */

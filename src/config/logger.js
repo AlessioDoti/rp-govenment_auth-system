@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Application-wide structured logger (Pino).
  */
 
@@ -28,5 +28,5 @@ if (!isProd) {
   };
 }
 
-/** @type {import('pino').Logger} */
+/*** @type {import('pino').Logger} */
 export const logger = pino(options);

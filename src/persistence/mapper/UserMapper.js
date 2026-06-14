@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Maps between User (persistence row) and UserDTO (domain object).
  */
 

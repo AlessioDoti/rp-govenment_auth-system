@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Passport.js strategy configuration.
  *
  * Configures:

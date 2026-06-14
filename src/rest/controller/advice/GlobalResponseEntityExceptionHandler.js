@@ -1,4 +1,4 @@
-/**
+/***
  * @fileoverview Global Express error-handling middleware.
  *
  * Translates domain errors (AppError subclasses) into standard HTTP
@@ -31,7 +31,7 @@ function statusFor(err) {
   return STATUS_BY_CODE[err.code] ?? 500;
 }
 
-/**
+/***
  * Express error-handling middleware (4-argument signature).
  *
  * @param {Error & { type?: string, status?: number, code?: string, details?: unknown }} err
@@ -60,7 +60,6 @@ export function globalErrorHandler(err, req, res, _next) {
     return;
   }
 
-  // Unknown / internal
   const isProduction = env.NODE_ENV === 'production';
   logger.error({ err }, 'Unhandled error');
 
@@ -74,7 +73,7 @@ export function globalErrorHandler(err, req, res, _next) {
   });
 }
 
-/**
+/***
  * Handles Passport authentication errors by translating them into
  * the standard error response format.
  *
